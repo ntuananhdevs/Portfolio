@@ -9,12 +9,19 @@
     <meta property="og:description" content="A simple portfolio site of me" />
     <link rel="image_src" type="image/jpeg" href="assets/img/tittle.jpg" />
     <link rel="icon" type="image/png" href="./assets/img/zyro.png" />
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
     <!-- CSS Links -->
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-
+    <link
+    rel="stylesheet"
+    type="text/css"
+    href="assets/css/hamburgers.css"
+/>
     <link rel="stylesheet" href="assets/css/style.css" />
 
     <title>NTUANANH</title>
@@ -46,10 +53,13 @@
                     <a data-ripple href="#home" class="home-btn menu">Home</a>
                 </li>
                 <li>
-                    <a data-ripple href="#about" class="about-btn menu">About</a>
+                    <a data-ripple href="#about" class="about-btn menu">Skills</a>
                 </li>
                 <li>
                     <a data-ripple href="#projects" class="projects-btn menu">Projects</a>
+                </li>
+                <li>
+                    <a data-ripple href="#certificate" class="certificate-btn menu">Certificate</a>
                 </li>
                 <li>
                     <a data-ripple href="#contact" class="contact-btn menu">Contact</a>
@@ -64,8 +74,21 @@
         <div class="heart"></div>
     </div>
     <section class="home body-content" id="home">
+
             <div class="card">
-                
+                <div class="headear-card">
+                        <h3>Hi there!</h3>
+                </div>
+                <div class="body-card">
+                    <div class="avata">
+                        <img src="./assets/img/tittle.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h4><ion-icon name="person-circle"></ion-icon> My name is Nguyễn Tuấn Anh</h4>
+                        <h4><ion-icon name="briefcase"></ion-icon> I am a Back-End Developer</h4>
+                        <h4><ion-icon name="school"></ion-icon> I am a student at FPT Polytechnic,majoring in computer science.</h4>
+                        <h4><ion-icon name="construct" size="large"></ion-icon> I specialize in PHP, SQL, and Python, building efficient web backends and working with large datasets to optimize data pipelines.</h4>
+
             </div>
     </section>
 
@@ -163,6 +186,9 @@
         </div>
     </section>
     
+
+
+
     <section class="projects body-content" id="projects">
         <div class="projects-head">
             <h1>My projects</h1>
@@ -170,6 +196,13 @@
         </div>
 
         <h1 class="coming-soon">Coming<br />soon !</h1>
+    </section>
+
+    <section class="certificate body-content" id="certificate">
+        <div class="certificate-head"></div>
+            <h1>My projects</h1>
+            <span></span>
+        </div>
     </section>
     <section class="contact margin-footer body-content" id="contact">
         <div class="contact-head">
