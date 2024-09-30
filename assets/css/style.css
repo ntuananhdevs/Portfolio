@@ -583,7 +583,7 @@ header.sticky .theme-btn:hover{
 			font-size: 1.5em;
 			text-align: center;
 			font-weight: 570;
-			color: #de3737;
+			color: #f90404;
 
 		}
 		.body-card {
@@ -613,6 +613,9 @@ header.sticky .theme-btn:hover{
 					font-weight: 410;
 					display: flex;
 					gap: 15px;
+					ion-icon {
+						color: #dd6363;
+					 }
 				}
 			}
 		}
